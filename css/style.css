@@ -127,3 +127,115 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+/* Smartphone grandi dimensioni */
+@media (max-width: 480px) {
+    /* LAYOUT */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+/* LESSONS SECTION */
+.lessons .col {
+    width: 100%;
+}
+
+.col {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* WHY US SECTION */
+.why-us {
+    margin-bottom: 3rem;
+}
+.why-us .col-left {
+    width: 100%;
+}
+
+.why-us .col-right {
+    width: 100%;
+}
+
+.why-us li {
+    list-style: none;
+    margin-bottom: 2.5rem;
+}
+
+/* STEPS SECTION */
+
+
+.steps .col {
+    width: 100%;
+}
+
+/* TEXT */
+.text-center {
+    text-align: center;
+}
+}
+
+/* Tablet */
+@media (min-width: 421px) and (max-width: 767px) {
+   /* LAYOUT */
+.container {
+    
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* TEXT */
+.text-center {
+    text-align: center;
+}
+
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+   /* LAYOUT */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* TEXT */
+.text-center {
+    text-align: center;
+}
+}
