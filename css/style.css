@@ -132,10 +132,14 @@ img {
 /* Smartphone grandi dimensioni */
 @media (max-width: 480px) {
     /* LAYOUT */
-*{
-    box-sizing: border-box;
-    padding: 0;
+
+.card{
     margin-bottom: 10px;
+}
+
+.why-us {
+    margin-top: 0;
+    background-color: black;
 }
 
 .container {
@@ -162,7 +166,8 @@ img {
 
 /* WHY US SECTION */
 .why-us {
-    margin-bottom: 3rem;
+    margin-bottom: 0;
+    padding-top: 15px;
 }
 .why-us .col-left {
     width: 100%;
@@ -179,9 +184,16 @@ img {
 
 /* STEPS SECTION */
 
+.steps {
+    margin-bottom: 0;
+    padding: 3rem 0;
+    color: #232946;
+    background: #eebbc3;
+}
 
 .steps .col {
     width: 100%;
+    
 }
 
 /* TEXT */
